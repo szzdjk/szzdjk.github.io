@@ -1,0 +1,6 @@
+User-agent: *
+Allow: /
+Sitemap: https://www.szzdjk.com/sitemap.xml
+
+# 禁止搜索引擎抓取无关资源
+Disallow: /assets/images/
