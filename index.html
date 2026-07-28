@@ -1,0 +1,489 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="深圳中电建科实业有限公司 - 专业擦窗机（外墙维护系统BMU）设计、销售、安装及维保服务，与西班牙Sky Climber深度合作。">
+<meta name="keywords" content="擦窗机,外墙维护系统,BMU,深圳擦窗机,擦窗机厂家,Sky Climber,建筑外墙清洗,中电建科">
+<meta name="author" content="深圳中电建科实业有限公司">
+<meta name="robots" content="index, follow">
+<meta property="og:title" content="深圳中电建科实业有限公司 | 外墙维护系统专家">
+<meta property="og:description" content="专业擦窗机（BMU）设计、销售、安装及维保，与西班牙Sky Climber深度合作。">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://www.szzdjk.com">
+<meta property="og:site_name" content="深圳中电建科">
+<link rel="canonical" href="https://www.szzdjk.com">
+<title>深圳中电建科实业有限公司 | 擦窗机厂家_BMU外墙维护系统专家</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<style>
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth;-webkit-font-smoothing:antialiased}
+body{font-family:'Outfit','PingFang SC','Microsoft YaHei',sans-serif;color:#1a1a2e;background:#f8f9fb;line-height:1.7;overflow-x:hidden}
+
+.nav{position:fixed;top:0;left:0;right:0;z-index:1000;padding:0 2rem;transition:all 0.35s cubic-bezier(0.16,1,0.3,1)}
+.nav.scrolled{background:rgba(255,255,255,0.94);backdrop-filter:blur(16px);-webkit-backdrop-filter:blur(16px);box-shadow:0 1px 0 rgba(0,0,0,0.06)}
+.nav-inner{max-width:1400px;margin:0 auto;display:flex;align-items:center;justify-content:space-between;height:76px}
+.nav-logo{font-size:1.3rem;font-weight:800;color:#fff;text-decoration:none;letter-spacing:-0.5px;transition:color 0.35s}
+.nav.scrolled .nav-logo{color:#1a1a2e}
+.nav-logo span{color:#e8590c}
+.nav-links{display:flex;list-style:none;gap:2.2rem}
+.nav-links a{text-decoration:none;color:rgba(255,255,255,0.82);font-size:0.88rem;font-weight:500;transition:color 0.25s;position:relative}
+.nav.scrolled .nav-links a{color:#4a5568}
+.nav-links a::after{content:'';position:absolute;bottom:-4px;left:0;width:0;height:2px;background:#e8590c;transition:width 0.3s cubic-bezier(0.16,1,0.3,1)}
+.nav-links a:hover::after,.nav-links a.active::after{width:100%}
+.nav-links a:hover{color:#fff}.nav.scrolled .nav-links a:hover{color:#e8590c}
+.nav-toggle{display:none;flex-direction:column;gap:5px;cursor:pointer;padding:4px;z-index:1001;background:none;border:none}
+.nav-toggle span{display:block;width:24px;height:2px;background:#fff;transition:all 0.3s}
+.nav.scrolled .nav-toggle span{background:#1a1a2e}
+
+.hero{position:relative;min-height:100dvh;display:flex;align-items:center;overflow:hidden}
+.hero-bg{position:absolute;inset:0;z-index:0}
+.hero-bg img{width:100%;height:100%;object-fit:cover;filter:brightness(0.42)}
+.hero-overlay{position:absolute;inset:0;background:linear-gradient(135deg,rgba(10,25,47,0.78) 0%,rgba(10,25,47,0.3) 50%,rgba(10,25,47,0.65) 100%);z-index:1}
+.hero-content{position:relative;z-index:2;max-width:1400px;margin:0 auto;padding:0 2rem;width:100%}
+.hero-content h1{font-size:clamp(2.5rem,5.5vw,4.5rem);font-weight:800;color:#fff;line-height:1.12;letter-spacing:-1px;max-width:14ch;margin-bottom:1.5rem}
+.hero-content h1 span{color:#e8590c;display:block}
+.hero-content p{font-size:clamp(1.05rem,1.35vw,1.2rem);color:rgba(255,255,255,0.76);max-width:48ch;margin-bottom:2.5rem;line-height:1.75}
+.hero-btns{display:flex;gap:1rem;flex-wrap:wrap}
+.btn{padding:0.85rem 2rem;border-radius:8px;font-size:0.95rem;font-weight:600;text-decoration:none;display:inline-flex;align-items:center;gap:0.5rem;transition:all 0.3s cubic-bezier(0.16,1,0.3,1);cursor:pointer;border:none;letter-spacing:0.3px;white-space:nowrap}
+.btn-primary{background:#e8590c;color:#fff;box-shadow:0 4px 16px rgba(232,89,12,0.3)}
+.btn-primary:hover{background:#d44e08;transform:translateY(-2px);box-shadow:0 8px 24px rgba(232,89,12,0.4)}
+.btn-outline{background:transparent;color:#fff;border:1.5px solid rgba(255,255,255,0.3)}
+.btn-outline:hover{background:rgba(255,255,255,0.07);border-color:rgba(255,255,255,0.55);transform:translateY(-2px)}
+.hero-stats{display:flex;gap:3rem;margin-top:4rem;padding-top:2rem;border-top:1px solid rgba(255,255,255,0.1)}
+.hero-stat .num{font-size:2.5rem;font-weight:800;color:#fff;line-height:1;letter-spacing:-1px}
+.hero-stat .num span{color:#e8590c}
+.hero-stat .label{font-size:0.85rem;color:rgba(255,255,255,0.55);margin-top:0.35rem}
+
+.section{padding:6rem 2rem}
+.section-inner{max-width:1400px;margin:0 auto}
+.section-tag{display:inline-block;font-size:0.8rem;font-weight:700;letter-spacing:2.5px;color:#e8590c;text-transform:uppercase;margin-bottom:0.75rem}
+.section-title{font-size:clamp(2rem,3vw,2.75rem);font-weight:800;color:#0f172a;letter-spacing:-0.5px;line-height:1.2;margin-bottom:1rem}
+.section-desc{font-size:1.1rem;color:#64748b;max-width:56ch;line-height:1.7;margin-bottom:3rem}
+
+.services{background:#fff}
+.services-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(270px,1fr));gap:1.5rem}
+.service-card{background:#f8f9fb;border-radius:16px;padding:2.5rem 2rem;border:1px solid #e2e8f0;transition:all 0.35s cubic-bezier(0.16,1,0.3,1);position:relative;overflow:hidden}
+.service-card::before{content:'';position:absolute;top:0;left:0;right:0;height:3px;background:linear-gradient(90deg,#e8590c,#f08c4b);transform:scaleX(0);transform-origin:left;transition:transform 0.4s cubic-bezier(0.16,1,0.3,1)}
+.service-card:hover{transform:translateY(-6px);box-shadow:0 20px 40px rgba(0,0,0,0.08);border-color:transparent}
+.service-card:hover::before{transform:scaleX(1)}
+.service-icon{width:52px;height:52px;border-radius:12px;background:linear-gradient(135deg,#e8590c,#f08c4b);display:flex;align-items:center;justify-content:center;margin-bottom:1.5rem}
+.service-icon svg{width:24px;height:24px;fill:#fff}
+.service-card h3{font-size:1.2rem;font-weight:700;color:#0f172a;margin-bottom:0.75rem}
+.service-card p{font-size:0.95rem;color:#64748b;line-height:1.65}
+
+.about{background:#f8f9fb}
+.about-grid{display:grid;grid-template-columns:1fr 1fr;gap:4rem;align-items:center}
+.about-image{border-radius:20px;overflow:hidden;position:relative}
+.about-image img{width:100%;height:auto;display:block;border-radius:20px}
+.about-badge{position:absolute;bottom:-20px;right:-20px;background:#fff;padding:1.5rem 2rem;border-radius:16px;box-shadow:0 12px 40px rgba(0,0,0,0.1)}
+.about-badge .num{font-size:2.25rem;font-weight:800;color:#e8590c;line-height:1}
+.about-badge .label{font-size:0.85rem;color:#64748b;margin-top:0.25rem}
+.about-text h3{font-size:1.15rem;font-weight:700;color:#e8590c;letter-spacing:2.5px;text-transform:uppercase;margin-bottom:0.5rem}
+.about-features{display:grid;grid-template-columns:1fr 1fr;gap:1rem;margin-top:2rem}
+.about-feature{display:flex;align-items:flex-start;gap:0.75rem}
+.about-feature svg{width:20px;height:20px;flex-shrink:0;margin-top:3px}
+.about-feature span{font-size:0.93rem;color:#334155;font-weight:500}
+
+.products{background:#fff}
+.products-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(320px,1fr));gap:2rem}
+.product-card{background:#fff;border-radius:16px;overflow:hidden;border:1px solid #e2e8f0;transition:all 0.35s cubic-bezier(0.16,1,0.3,1)}
+.product-card:hover{transform:translateY(-6px);box-shadow:0 20px 40px rgba(0,0,0,0.08)}
+.product-img{width:100%;height:240px;object-fit:cover;display:block}
+.product-body{padding:1.75rem}
+.product-body h3{font-size:1.15rem;font-weight:700;color:#0f172a;margin-bottom:0.5rem}
+.product-body p{font-size:0.93rem;color:#64748b;line-height:1.65;margin-bottom:1rem}
+.product-tags{display:flex;gap:0.5rem;flex-wrap:wrap;margin-bottom:1rem}
+.product-tag{padding:0.25rem 0.75rem;background:#fff7ed;color:#e8590c;font-size:0.78rem;font-weight:600;border-radius:20px}
+.product-link{font-size:0.9rem;font-weight:600;color:#e8590c;text-decoration:none;display:inline-flex;align-items:center;gap:0.35rem;transition:gap 0.25s}
+.product-link:hover{gap:0.65rem}
+
+.cases{background:#f8f9fb}
+.cases-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:1.25rem}
+.case-card{position:relative;border-radius:12px;overflow:hidden;aspect-ratio:1;transition:all 0.35s cubic-bezier(0.16,1,0.3,1)}
+.case-card:first-child{grid-column:span 2;grid-row:span 2;aspect-ratio:auto}
+.case-card:hover{transform:scale(1.02);box-shadow:0 16px 40px rgba(0,0,0,0.12);z-index:2}
+.case-placeholder{display:flex;align-items:center;justify-content:center;height:100%;padding:2rem}
+.case-placeholder .name{font-size:1.15rem;font-weight:700;color:#fff;display:block;text-align:center}
+.case-placeholder .city{font-size:0.85rem;color:rgba(255,255,255,0.6);margin-top:0.35rem;display:block;text-align:center}
+
+.partners{background:#fff}
+.partner-grid{display:flex;flex-wrap:wrap;gap:2rem;align-items:center;justify-content:center}
+.partner-card{background:#f8f9fb;border-radius:16px;padding:2.5rem 3rem;border:1px solid #e2e8f0;text-align:center;min-width:260px;transition:all 0.35s}
+.partner-card:hover{box-shadow:0 12px 32px rgba(0,0,0,0.06);transform:translateY(-4px)}
+.partner-card h3{font-size:1.4rem;font-weight:700;color:#0f172a;margin-bottom:0.35rem}
+.partner-card .sub{font-size:0.85rem;color:#e8590c;font-weight:600;margin-bottom:0.75rem}
+.partner-card p{font-size:0.9rem;color:#64748b;line-height:1.6}
+
+.cta{background:linear-gradient(135deg,#1e293b,#0f172a);position:relative;overflow:hidden}
+.cta::before{content:'';position:absolute;top:-50%;left:-50%;width:200%;height:200%;background:radial-gradient(circle at 30% 50%,rgba(232,89,12,0.08) 0%,transparent 50%);z-index:0}
+.cta .section-inner{position:relative;z-index:1;text-align:center}
+.cta .section-title{color:#fff}
+.cta .section-desc{color:rgba(255,255,255,0.62);margin:1.5rem auto 2.5rem}
+.cta-btns{display:flex;gap:1rem;justify-content:center;flex-wrap:wrap}
+
+.footer{background:#0f172a;color:rgba(255,255,255,0.55);padding:4rem 2rem 2rem}
+.footer-grid{max-width:1400px;margin:0 auto;display:grid;grid-template-columns:2fr 1fr 1fr 1.5fr;gap:3rem;margin-bottom:3rem}
+.footer h4{color:#fff;font-size:0.95rem;font-weight:700;margin-bottom:1.25rem;letter-spacing:0.5px}
+.footer-about p{font-size:0.9rem;line-height:1.7;margin-bottom:1rem}
+.footer-about .logo{font-size:1.25rem;font-weight:800;color:#fff;margin-bottom:1rem;display:block}
+.footer-about .logo span{color:#e8590c}
+.footer-links{list-style:none}
+.footer-links li{margin-bottom:0.65rem}
+.footer-links a{color:rgba(255,255,255,0.45);text-decoration:none;font-size:0.9rem;transition:color 0.25s}
+.footer-links a:hover{color:#e8590c}
+.footer-contact p{font-size:0.9rem;margin-bottom:0.5rem}
+.footer-bottom{max-width:1400px;margin:0 auto;padding-top:2rem;border-top:1px solid rgba(255,255,255,0.06);display:flex;justify-content:space-between;font-size:0.85rem;flex-wrap:wrap;gap:1rem}
+
+.reveal{opacity:0;transform:translateY(40px);transition:opacity 0.7s cubic-bezier(0.16,1,0.3,1),transform 0.7s cubic-bezier(0.16,1,0.3,1)}
+.reveal.visible{opacity:1;transform:translateY(0)}
+
+@media(max-width:768px){
+  .nav{padding:0 1rem}
+  .nav-links{position:fixed;top:0;right:-100%;width:75%;max-width:320px;height:100dvh;background:#fff;flex-direction:column;padding:6rem 2rem 2rem;gap:1.5rem;transition:right 0.4s cubic-bezier(0.16,1,0.3,1);box-shadow:-4px 0 20px rgba(0,0,0,0.1)}
+  .nav-links.open{right:0}
+  .nav-links a{color:#1a1a2e!important;font-size:1.05rem}
+  .nav-toggle{display:flex}
+  .hero-stats{flex-direction:column;gap:1.5rem}
+  .about-grid{grid-template-columns:1fr;gap:2rem}
+  .about-badge{right:0;bottom:-16px;padding:1rem 1.5rem}
+  .cases-grid{grid-template-columns:repeat(2,1fr)}
+  .case-card:first-child{grid-column:span 2;grid-row:span 1}
+  .footer-grid{grid-template-columns:1fr 1fr}
+}
+
+@media(max-width:480px){
+  .hero-btns{flex-direction:column}
+  .btn{justify-content:center}
+  .products-grid{grid-template-columns:1fr}
+  .cases-grid{grid-template-columns:1fr}
+  .case-card:first-child{grid-column:span 1}
+  .footer-grid{grid-template-columns:1fr}
+}
+
+@media(prefers-reduced-motion:reduce){
+  *,*::before,*::after{animation-duration:0.01ms!important;animation-iteration-count:1!important;transition-duration:0.01ms!important;scroll-behavior:auto!important}
+  .reveal{opacity:1;transform:none}
+}
+</style>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "深圳中电建科实业有限公司",
+  "url": "https://www.szzdjk.com",
+  "description": "专业擦窗机（外墙维护系统BMU）设计、销售、安装及维保服务",
+  "address": {
+    "@type": "PostalAddress",
+    "addressLocality": "深圳",
+    "addressRegion": "广东",
+    "streetAddress": "南山区南头街道马家龙社区艺园路139号唐商科技大厦A座2302"
+  },
+  "telephone": "0755-23205305",
+  "email": "szzdjk@163.com",
+  "foundingDate": "2012-05-23"
+}
+</script>
+</head>
+<body>
+
+<nav class="nav" id="nav">
+  <div class="nav-inner">
+    <a href="#" class="nav-logo">中电<span>建科</span></a>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="#home" class="active">首页</a></li>
+      <li><a href="#services">核心服务</a></li>
+      <li><a href="#about">关于我们</a></li>
+      <li><a href="#products">产品中心</a></li>
+      <li><a href="#cases">工程案例</a></li>
+      <li><a href="#partners">合作伙伴</a></li>
+      <li><a href="#contact">联系我们</a></li>
+    </ul>
+    <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</nav>
+
+<section class="hero" id="home">
+  <div class="hero-bg"><img src="assets/images/hero-banner.jpg" alt="高楼外墙维护系统"></div>
+  <div class="hero-overlay"></div>
+  <div class="hero-content">
+    <h1>守护城市天际线<span>外墙维护系统专家</span></h1>
+    <p>深圳中电建科与欧洲知名品牌 Sky Climber 深度合作，提供擦窗机（BMU）从方案规划到安装维保的一站式专业服务，让每一栋建筑保持洁净与安全。</p>
+    <div class="hero-btns">
+      <a href="#contact" class="btn btn-primary">获取方案咨询</a>
+      <a href="#products" class="btn btn-outline">了解产品系列</a>
+    </div>
+    <div class="hero-stats">
+      <div class="hero-stat"><div class="num"><span>13</span>+</div><div class="label">年行业经验</div></div>
+      <div class="hero-stat"><div class="num"><span>47</span>+</div><div class="label">参与招投标项目</div></div>
+      <div class="hero-stat"><div class="num"><span>100</span>%</div><div class="label">客户服务覆盖</div></div>
+    </div>
+  </div>
+</section>
+
+<section class="section services" id="services">
+  <div class="section-inner">
+    <div class="section-tag reveal">What We Do</div>
+    <h2 class="section-title reveal">全生命周期擦窗机服务</h2>
+    <p class="section-desc reveal">从前期方案设计到后期维保，为每一栋建筑定制外墙维护解决方案。</p>
+    <div class="services-grid">
+      <div class="service-card reveal">
+        <div class="service-icon"><svg viewBox="0 0 24 24"><path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"/></svg></div>
+        <h3>方案设计与顾问</h3>
+        <p>基于建筑结构、幕墙形态和运维需求，提供定制化 BMU 方案规划与技术顾问服务，确保系统安全高效。</p>
+      </div>
+      <div class="service-card reveal">
+        <div class="service-icon"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14" stroke="#fff" stroke-width="2" fill="none" stroke-linecap="round"/></svg></div>
+        <h3>设备销售与供应</h3>
+        <p>整合欧洲 Sky Climber 先进技术，提供各类擦窗机系统设备，涵盖轨道式、轮载式、悬挂式等全系列产品。</p>
+      </div>
+      <div class="service-card reveal">
+        <div class="service-icon"><svg viewBox="0 0 24 24"><path d="M14.7 6.3a1 1 0 000 1.4l1.6 1.6a1 1 0 001.4 0l3.77-3.77a6 6 0 01-7.94 7.94l-6.91 6.91a2.12 2.12 0 01-3-3l6.91-6.91a6 6 0 017.94-7.94l-3.76 3.76z"/></svg></div>
+        <h3>工程安装与调试</h3>
+        <p>专业工程师团队驻场安装，严格按国家标准完成调试检测，确保设备交付即用，安全可靠。</p>
+      </div>
+      <div class="service-card reveal">
+        <div class="service-icon"><svg viewBox="0 0 24 24"><rect x="2" y="3" width="20" height="14" rx="2"/><path d="M8 21h8M12 17v4"/></svg></div>
+        <h3>维修保养服务</h3>
+        <p>提供定期巡检、预防性维护和应急维修，建立设备全生命周期管理档案，延长设备使用寿命。</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section about" id="about">
+  <div class="section-inner">
+    <div class="about-grid">
+      <div class="about-image reveal">
+        <img src="assets/images/team-service.jpg" alt="专业工程团队">
+        <div class="about-badge">
+          <div class="num">13+</div>
+          <div class="label">年专注擦窗机领域</div>
+        </div>
+      </div>
+      <div class="about-text reveal">
+        <h3>About Us</h3>
+        <h2 class="section-title">专业、专心、专注、专致</h2>
+        <p class="section-desc">深圳中电建科实业有限公司成立于2012年，注册资金1200万元，位于深圳市南山区。公司多年秉持互惠共赢原则与西班牙品牌 Sky Climber 深度合作，为其品牌旗下外墙维护系统合作经营中国大陆市场。</p>
+        <p class="section-desc">Sky Climber 始创于20世纪50年代，是悬吊设备行业的先驱之一，在六十余年的专业工程实践中积累了丰富经验，擦窗机市场占有率在全球排名前列。</p>
+        <div class="about-features">
+          <div class="about-feature">
+            <svg viewBox="0 0 20 20"><circle cx="10" cy="10" r="8" fill="#e8590c"/><polyline points="7 10 9 12 13 8" stroke="#fff" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            <span>与欧洲顶级品牌战略合作</span>
+          </div>
+          <div class="about-feature">
+            <svg viewBox="0 0 20 20"><circle cx="10" cy="10" r="8" fill="#e8590c"/><polyline points="7 10 9 12 13 8" stroke="#fff" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            <span>高新科技企业，拥有自主专利</span>
+          </div>
+          <div class="about-feature">
+            <svg viewBox="0 0 20 20"><circle cx="10" cy="10" r="8" fill="#e8590c"/><polyline points="7 10 9 12 13 8" stroke="#fff" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            <span>设计、销售、安装、维保全链覆盖</span>
+          </div>
+          <div class="about-feature">
+            <svg viewBox="0 0 20 20"><circle cx="10" cy="10" r="8" fill="#e8590c"/><polyline points="7 10 9 12 13 8" stroke="#fff" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            <span>服务辐射全国各大主要城市</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section products" id="products">
+  <div class="section-inner">
+    <div class="section-tag reveal">Products</div>
+    <h2 class="section-title reveal">擦窗机产品系列</h2>
+    <p class="section-desc reveal">提供多类型外墙维护设备，满足不同建筑结构与功能需求。</p>
+    <div class="products-grid">
+      <div class="product-card reveal">
+        <img src="assets/images/product-detail.jpg" alt="单臂伸缩型擦窗机" class="product-img">
+        <div class="product-body">
+          <h3>单臂伸缩型擦窗机</h3>
+          <p>适用于中高层商业建筑，伸缩臂结构灵活覆盖大面积幕墙，操作便捷，安装维护成本低。</p>
+          <div class="product-tags">
+            <span class="product-tag">轨道式</span><span class="product-tag">中高层</span><span class="product-tag">商业建筑</span>
+          </div>
+          <a href="#contact" class="product-link">了解详情 &rarr;</a>
+        </div>
+      </div>
+      <div class="product-card reveal">
+        <img src="assets/images/product-detail.jpg" alt="双臂型擦窗机" class="product-img">
+        <div class="product-body">
+          <h3>双臂型擦窗机</h3>
+          <p>双悬臂结构提供更大工作范围与稳定性，适用于超高层复杂幕墙建筑，承载能力强，安全冗余高。</p>
+          <div class="product-tags">
+            <span class="product-tag">超高层</span><span class="product-tag">重载型</span><span class="product-tag">地标建筑</span>
+          </div>
+          <a href="#contact" class="product-link">了解详情 &rarr;</a>
+        </div>
+      </div>
+      <div class="product-card reveal">
+        <img src="assets/images/product-detail.jpg" alt="吊篮式擦窗机" class="product-img">
+        <div class="product-body">
+          <h3>吊篮式擦窗机</h3>
+          <p>经济实用的外墙维护方案，适合各类建筑外立面清洁与维护，安装灵活，适应性广，性价比高。</p>
+          <div class="product-tags">
+            <span class="product-tag">经济型</span><span class="product-tag">通用</span><span class="product-tag">灵活部署</span>
+          </div>
+          <a href="#contact" class="product-link">了解详情 &rarr;</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section cases" id="cases">
+  <div class="section-inner">
+    <div class="section-tag reveal">Portfolio</div>
+    <h2 class="section-title reveal">工程案例</h2>
+    <p class="section-desc reveal">我们的设备与服务遍布全国多个地标性建筑项目。</p>
+    <div class="cases-grid">
+      <div class="case-card reveal"><div class="case-placeholder" style="background:linear-gradient(135deg,#1a365d,#2a4a7f)"><div><span class="name">深圳湾创业投资大厦</span><span class="city">深圳</span></div></div></div>
+      <div class="case-card reveal"><div class="case-placeholder" style="background:linear-gradient(135deg,#2d3748,#4a5568)"><div><span class="name">光明生命科学园</span><span class="city">深圳</span></div></div></div>
+      <div class="case-card reveal"><div class="case-placeholder" style="background:linear-gradient(135deg,#1a202c,#2d3748)"><div><span class="name">国投证券总部大厦</span><span class="city">深圳</span></div></div></div>
+      <div class="case-card reveal"><div class="case-placeholder" style="background:linear-gradient(135deg,#234e52,#2c7a7b)"><div><span class="name">中车四方智汇港</span><span class="city">青岛</span></div></div></div>
+      <div class="case-card reveal"><div class="case-placeholder" style="background:linear-gradient(135deg,#744210,#975a16)"><div><span class="name">海口海控国际广场</span><span class="city">海口</span></div></div></div>
+      <div class="case-card reveal"><div class="case-placeholder" style="background:linear-gradient(135deg,#3c366b,#553c9a)"><div><span class="name">汇景研发大厦</span><span class="city">深圳</span></div></div></div>
+    </div>
+  </div>
+</section>
+
+<section class="section partners" id="partners">
+  <div class="section-inner">
+    <div class="section-tag reveal" style="text-align:center;display:block">Partnership</div>
+    <h2 class="section-title reveal" style="text-align:center">国际合作</h2>
+    <p class="section-desc reveal" style="text-align:center;margin-left:auto;margin-right:auto">与国际领先品牌深度合作，整合全球技术资源。</p>
+    <div class="partner-grid reveal">
+      <div class="partner-card">
+        <h3>Sky Climber</h3>
+        <div class="sub">西班牙 &middot; 战略合作品牌</div>
+        <p>欧洲悬吊设备行业先驱，60+年专业工程实践，全球市场占有率领先</p>
+      </div>
+    </div>
+    <p style="text-align:center;margin-top:2.5rem;color:#64748b;font-size:0.95rem" class="reveal">同时，我们持续关注行业前沿发展，与国内外多家擦窗机制造企业保持技术交流与合作。</p>
+  </div>
+</section>
+
+<section class="section cta" id="contact">
+  <div class="section-inner">
+    <h2 class="section-title reveal">让每一栋建筑保持洁净与安全</h2>
+    <p class="section-desc reveal">无论您是新建项目还是既有建筑改造，我们的技术团队随时准备为您提供专业的擦窗机解决方案。</p>
+    <div class="cta-btns reveal">
+      <a href="tel:0755-23205305" class="btn btn-primary">电话咨询 0755-23205305</a>
+      <a href="mailto:szzdjk@163.com" class="btn btn-outline" style="border-color:rgba(255,255,255,0.3)">邮件联系 szzdjk@163.com</a>
+    </div>
+  </div>
+</section>
+
+<footer class="footer">
+  <div class="footer-grid">
+    <div class="footer-about">
+      <span class="logo">中电<span>建科</span></span>
+      <p>深圳中电建科实业有限公司专注擦窗机（外墙维护系统 BMU）领域，集设计、销售、安装、维保为一体，以专业服务守护城市天际线。</p>
+    </div>
+    <div>
+      <h4>快速导航</h4>
+      <ul class="footer-links">
+        <li><a href="#home">首页</a></li>
+        <li><a href="#services">核心服务</a></li>
+        <li><a href="#about">关于我们</a></li>
+        <li><a href="#products">产品中心</a></li>
+        <li><a href="#cases">工程案例</a></li>
+      </ul>
+    </div>
+    <div>
+      <h4>产品分类</h4>
+      <ul class="footer-links">
+        <li><a href="#products">单臂伸缩型</a></li>
+        <li><a href="#products">双臂型擦窗机</a></li>
+        <li><a href="#products">吊篮式擦窗机</a></li>
+        <li><a href="#products">特殊定制型</a></li>
+      </ul>
+    </div>
+    <div class="footer-contact">
+      <h4>联系我们</h4>
+      <p>地址：深圳市南山区南头街道马家龙社区艺园路139号唐商科技大厦A座2302</p>
+      <p>电话：0755-23205305</p>
+      <p>邮箱：szzdjk@163.com</p>
+      <p>网址：www.szzdjk.com</p>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <span>&copy; 2026 深圳中电建科实业有限公司 版权所有</span>
+    <span>粤ICP备2026062691号-1</span>
+  </div>
+</footer>
+
+<script>
+(function(){
+  const nav = document.getElementById('nav');
+  const navToggle = document.getElementById('navToggle');
+  const navLinks = document.getElementById('navLinks');
+  const links = navLinks.querySelectorAll('a');
+  const reveals = document.querySelectorAll('.reveal');
+
+  // Nav scroll effect
+  let scrollTicking = false;
+  window.addEventListener('scroll', function(){
+    if(!scrollTicking){
+      requestAnimationFrame(function(){
+        nav.classList.toggle('scrolled', window.scrollY > 60);
+        scrollTicking = false;
+      });
+      scrollTicking = true;
+    }
+  });
+
+  // Mobile nav toggle
+  navToggle.addEventListener('click', function(){
+    navLinks.classList.toggle('open');
+  });
+  links.forEach(function(link){
+    link.addEventListener('click', function(){
+      navLinks.classList.remove('open');
+    });
+  });
+
+  // Active nav link highlight
+  const sections = document.querySelectorAll('section[id]');
+  window.addEventListener('scroll', function(){
+    let current = '';
+    sections.forEach(function(sec){
+      if(sec.getBoundingClientRect().top <= 120){
+        current = sec.getAttribute('id');
+      }
+    });
+    links.forEach(function(link){
+      link.classList.toggle('active', link.getAttribute('href') === '#' + current);
+    });
+  });
+
+  // Scroll reveal
+  const observer = new IntersectionObserver(function(entries){
+    entries.forEach(function(entry){
+      if(entry.isIntersecting){
+        entry.target.classList.add('visible');
+        observer.unobserve(entry.target);
+      }
+    });
+  }, { threshold: 0.15, rootMargin: '0px 0px -40px 0px' });
+
+  reveals.forEach(function(el){ observer.observe(el); });
+
+  // Fallback: show all if no IntersectionObserver
+  setTimeout(function(){
+    reveals.forEach(function(el){
+      if(!el.classList.contains('visible')){
+        el.classList.add('visible');
+      }
+    });
+  }, 3000);
+})();
+</script>
+</body>
+</html>
